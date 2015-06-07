@@ -22,6 +22,7 @@ public class BaseTest {
     protected static MicrowavesPage microwavesPage;
     protected static ComparisonPage comparisonPage;
     protected static WasherMachinesPage washerMachinesPage;
+    protected static BreadMakersPage breadMakersPage;
     protected WebDriver driver = new FirefoxDriver();
 
         @BeforeSuite
@@ -34,6 +35,7 @@ public class BaseTest {
             microwavesPage = MicrowavesPage.getMicrowavesPage(driver);
             comparisonPage = ComparisonPage.getComparisonPage(driver);
             washerMachinesPage = WasherMachinesPage.getWasherMachinesPage(driver);
+            breadMakersPage = BreadMakersPage.getBreadMakersPage(driver);
         }
 
         @AfterSuite
