@@ -1,4 +1,4 @@
-package com.epam.klymenko.pages;
+package com.epam.klymenko.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

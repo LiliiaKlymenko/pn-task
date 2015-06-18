@@ -1,4 +1,4 @@
-package com.epam.klymenko.pages;
+package com.epam.klymenko.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,8 +17,9 @@ public class BreadMakersPage extends BasePage {
     String NAME_LIST = "//div[@class='name']/a";
     String WEIGHT_CONTROL_FEATURE = "Регулировка веса";
     String WEIGHT_CONTROL = "(.//*[@class='description'])";
-    final int ELEMENTS_COUNT = 20;
+    public final int ELEMENTS_COUNT = 20;
     private static WebDriver _driver;
+
 
 
     @FindBy(xpath = "//div[10]/div[2]/a[2]")
@@ -62,11 +63,11 @@ public class BreadMakersPage extends BasePage {
 
     public List<String> getAllManufacturers() {
         showAllManufacturers.click();
-        List<WebElement> _manufacturers = new ArrayList<WebElement>();
-        _manufacturers = _driver.findElements(By.xpath(firstManufacturers));
-        _manufacturers.addAll(_driver.findElements(By.xpath(lastManufacturers)));
+        List<WebElement> newManufacturers;
+        newManufacturers = _driver.findElements(By.xpath(firstManufacturers));
+        newManufacturers.addAll(_driver.findElements(By.xpath(lastManufacturers)));
         List<String> manufacturers = new ArrayList<String>();
-        for (WebElement i : _manufacturers) {
+        for (WebElement i : newManufacturers) {
             manufacturers.add(i.getText());
         }
         return manufacturers;

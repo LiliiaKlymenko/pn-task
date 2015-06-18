@@ -1,4 +1,4 @@
-package com.epam.klymenko.pages;
+package com.epam.klymenko.tests;
 
 import com.epam.klymenko.core.BaseTest;
 import com.epam.klymenko.navigation.GoTo;
@@ -16,7 +16,7 @@ public class WasherMachinesFilterTest extends BaseTest {
     final int MAXIMAL_PRICE = 8000;
 
     @Test
-    public void testCorrectFilterByLess() throws NoSuchElementException {
+    public void testCorrectFilterByLess()  {
         GoTo.SectionWasherMachines(driver);
        washerMachinesPage.filterByMinimalPrice(MINIMAL_PRICE);
         Assert.assertTrue(washerMachinesPage.PricesAreLessThan(MINIMAL_PRICE, washerMachinesPage.getListOfPrices()),

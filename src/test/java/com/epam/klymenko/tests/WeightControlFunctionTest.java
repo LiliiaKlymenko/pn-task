@@ -1,11 +1,9 @@
-package com.epam.klymenko.pages;
+package com.epam.klymenko.tests;
 
 import com.epam.klymenko.core.BaseTest;
 import com.epam.klymenko.navigation.GoTo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.NoSuchElementException;
 
 /**
  * Created by Lili on 06.06.2015.
@@ -13,7 +11,7 @@ import java.util.NoSuchElementException;
 public class WeightControlFunctionTest extends BaseTest {
 
     @Test
-    public void testCorrectSortByPrice() throws NoSuchElementException {
+    public void testCorrectSortByPrice()  {
 
         GoTo.SectionBredMakers(driver);
         breadMakersPage.weightControlFilter();

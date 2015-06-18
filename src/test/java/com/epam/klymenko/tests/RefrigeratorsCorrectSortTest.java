@@ -1,18 +1,16 @@
-package com.epam.klymenko.pages;
+package com.epam.klymenko.tests;
 
 import com.epam.klymenko.core.BaseTest;
 import com.epam.klymenko.navigation.GoTo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.NoSuchElementException;
-
 public class RefrigeratorsCorrectSortTest extends BaseTest {
 
 
 
     @Test
-    public void testCorrectSortByPrice() throws NoSuchElementException {
+    public void testCorrectSortByPrice() {
 
         GoTo.SectionRefrigerators(driver);
         refrigeratorPage.sortRefrigeratorBy(PRICE);
@@ -21,7 +19,7 @@ public class RefrigeratorsCorrectSortTest extends BaseTest {
     }
 
     @Test
-    public void testCorrectSortByName() throws NoSuchElementException {
+    public void testCorrectSortByName()  {
         GoTo.SectionRefrigerators(driver);
         refrigeratorPage.sortRefrigeratorBy(NAME);
         Assert.assertTrue(refrigeratorPage.ItemsIsSorted(refrigeratorPage.getListOfNames()), "Price list is not sorted " +

@@ -1,9 +1,10 @@
 package com.epam.klymenko.core;
 
-import com.epam.klymenko.pages.*;
+import com.epam.klymenko.tests.*;
+import com.epam.klymenko.utils.WebDriverFactory;
 import com.epam.klymenko.waiter.Waiter;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -23,7 +24,7 @@ public class BaseTest {
     protected static ComparisonPage comparisonPage;
     protected static WasherMachinesPage washerMachinesPage;
     protected static BreadMakersPage breadMakersPage;
-    protected WebDriver driver = new FirefoxDriver();
+    protected WebDriver driver = new WebDriverFactory().getDriver(DesiredCapabilities.firefox());
 
         @BeforeSuite
         protected void setupBeforeSuite() {
