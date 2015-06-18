@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c0965a-def2-4100-b016-3ba937559f15" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\navigation\GoToTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\target\test-classes\com\epam\klymenko\pages\ItemsComparisonTest.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/BasePage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\BreadMakersPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/BreadMakersPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\ComparisonPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/ComparisonPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\DomesticEquipmentPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/DomesticEquipmentPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\FirstMicrowavePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/FirstMicrowavePage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/HomePage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\MicrowavesPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/MicrowavesPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\RefrigeratorPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/RefrigeratorPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\SecondMicrowavePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/SecondMicrowavePage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\pages\WasherMachinesPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/WasherMachinesPage.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\pages\ComparisonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/klymenko/tests/ComparisonTest.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\pages\ManufacturersTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/klymenko/tests/ManufacturersTest.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\pages\RefrigeratorsCorrectSortTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/klymenko/tests/RefrigeratorsCorrectSortTest.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\pages\WasherMachinesFilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/klymenko/tests/WasherMachinesFilterTest.java" />
-      <change type="MOVED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\test\java\com\epam\klymenko\pages\WeightControlFunctionTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/klymenko/tests/WeightControlFunctionTest.java" />
+      <change type="DELETED" beforePath="C:\Users\Liliia_Klymenko\Desktop\pn-task\src\main\java\com\epam\klymenko\core\PropertyFactory.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/klymenko/core/BaseTest.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/klymenko/core/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/core/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/klymenko/core/BaseTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -84,8 +67,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/klymenko/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3057554">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6420863">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,16 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/klymenko/tests/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -839,7 +812,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433703850648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed">
+      <created>1434625731884</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1434625731884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -885,7 +864,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1077,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/klymenko/core/PropertyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33563218">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29310346">
@@ -1246,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/klymenko/core/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3057554">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6420863">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
